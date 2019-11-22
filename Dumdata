@@ -1,68 +1,332 @@
 [
-  {
-		"id": "0",
-		"name": "Баян-Өлгий",
-  	"sub": [
-			  {
-				"id" : 0,
-				"name": "Буянт сум"
-			  },
-			  {
-				"id": 1,
-				"name": "Баяннуур"
-			  }
-			  ]
-		},
-		{
-			"id": "1",
-			"name": "Баянхонгор"
-		},
-		{
-			"id": "2",
-			"name": "Булган"
-		},
-		{
-			"id": "3",
-			"name": "Говь-Алтай"
-		},
-		{
-			"id": "4",
-			"name": "Говьсүмбэр"
-		},
-		{
-			"id": "5",
-			"name": "Дархан-Уул"
-		},
-		{
-			"id": "6",
-			"name": "Дорноговь"
-		},
-		{
-			"id": "7",
-			"name": "Дорнод"
-		},
-		{
-			"id": "8",
-			"name": "Дундговь"
-		},
-		{
-			"id": "9",
-			"name": "Завхан",
-			"sub": []
-		},
-		{
-			"id": "10",
-			"name": "Улаанбаатар",
-			"sub": [{
-					"id": 0,
-					"name": "Баянзүрх",
-					"sub": []
-				},
-				{
-					"id": 1,
-					"name": "Сүхбаатар",
-					"sub": []
-				}
-			]
-		}
-	]
+    {
+      "id": 1,
+      "key": 1,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Улаанбаатар хот"
+    },
+    {
+      "id": 2,
+      "key": 2,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Дорнод аймаг"
+    },
+    {
+      "id": 3,
+      "key": 3,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Сүхбаатар аймаг"
+    },
+    {
+      "id": 4,
+      "key": 4,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Хэнтий аймаг"
+    },
+    {
+      "id": 5,
+      "key": 5,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Төв аймаг"
+    },
+    {
+      "id": 6,
+      "key": 6,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Говьсүмбэр аймаг"
+    },
+    {
+      "id": 7,
+      "key": 7,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Сэлэнгэ аймаг"
+    },
+    {
+      "id": 8,
+      "key": 8,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Дорноговь аймаг"
+    },
+    {
+      "id": 9,
+      "key": 9,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Дархан-Уул аймаг"
+    },
+    {
+      "id": 10,
+      "key": 10,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Өмнөговь аймаг"
+    },
+    {
+      "id": 11,
+      "key": 11,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Дундговь аймаг"
+    },
+    {
+      "id": 12,
+      "key": 12,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Орхон аймаг"
+    },
+    {
+      "id": 13,
+      "key": 13,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Өвөрхангай аймаг"
+    },
+    {
+      "id": 14,
+      "key": 14,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Булган аймаг"
+    },
+    {
+      "id": 15,
+      "key": 15,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Баянхонгор аймаг"
+    },
+    {
+      "id": 16,
+      "key": 16,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Архангай аймаг"
+    },
+    {
+      "id": 17,
+      "key": 17,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Хөвсгөл аймаг"
+    },
+    {
+      "id": 18,
+      "key": 18,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Завхан аймаг"
+    },
+    {
+      "id": 19,
+      "key": 19,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Баян-Өлгий аймаг"
+    },
+    {
+      "id": 20,
+      "key": 20,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Говь-Алтай аймаг"
+    },
+    {
+      "id": 21,
+      "key": 21,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Ховд аймаг"
+    },
+    {
+      "id": 22,
+      "key": 22,
+      "type": "city",
+      "parentKey": 0,
+      "value": "Увс аймаг"
+    },
+    {
+      "id": 23,
+      "key": 23,
+      "type": "district",
+      "parentKey": 1,
+      "value": "Багануур дүүрэг"
+    },
+    {
+      "id": 24,
+      "key": 24,
+      "type": "district",
+      "parentKey": 1,
+      "value": "Багахангай дүүрэг"
+    },
+    {
+      "id": 25,
+      "key": 25,
+      "type": "district",
+      "parentKey": 1,
+      "value": "Баянгол дүүрэг"
+    },
+    {
+      "id": 26,
+      "key": 26,
+      "type": "district",
+      "parentKey": 1,
+      "value": "Баянзүрх дүүрэг"
+    },
+    {
+      "id": 27,
+      "key": 27,
+      "type": "district",
+      "parentKey": 1,
+      "value": "Налайх дүүрэг"
+    },
+    {
+      "id": 28,
+      "key": 28,
+      "type": "district",
+      "parentKey": 1,
+      "value": "Сонгинохайрхан дүүрэг"
+    },
+    {
+      "id": 29,
+      "key": 29,
+      "type": "district",
+      "parentKey": 1,
+      "value": "Сүхбаатар дүүрэг"
+    },
+    {
+      "id": 30,
+      "key": 30,
+      "type": "district",
+      "parentKey": 1,
+      "value": "Хан-Уул дүүрэг"
+    },
+    {
+      "id": 31,
+      "key": 31,
+      "type": "district",
+      "parentKey": 1,
+      "value": "Чингэлтэй дүүрэг"
+    },
+    {
+      "id": 33,
+      "key": 33,
+      "type": "street",
+      "parentKey": 26,
+      "value": "1-р хороо"
+    },
+    {
+      "id": 34,
+      "key": 34,
+      "type": "street",
+      "parentKey": 26,
+      "value": "2-р хороо"
+    },
+    {
+      "id": 35,
+      "key": 35,
+      "type": "street",
+      "parentKey": 26,
+      "value": "3-р хороо"
+    },
+    {
+      "id": 36,
+      "key": 36,
+      "type": "street",
+      "parentKey": 26,
+      "value": "4-р хороо"
+    },
+    {
+      "id": 37,
+      "key": 37,
+      "type": "street",
+      "parentKey": 26,
+      "value": "5-р хороо"
+    },
+    {
+      "id": 38,
+      "key": 38,
+      "type": "apt",
+      "parentKey": 33,
+      "value": "1-р хотхон"
+    },
+    {
+      "id": 39,
+      "key": 39,
+      "type": "apt",
+      "parentKey": 33,
+      "value": "2-р хотхон"
+    },
+    {
+      "id": 40,
+      "key": 40,
+      "type": "apt",
+      "parentKey": 33,
+      "value": "3-р хотхон"
+    },
+    {
+      "id": 41,
+      "key": 41,
+      "type": "apt",
+      "parentKey": 33,
+      "value": "4-р хотхон"
+    },
+    {
+      "id": 42,
+      "key": 42,
+      "type": "apt",
+      "parentKey": 33,
+      "value": "5-р хотхон"
+    },
+    {
+      "id": 43,
+      "key": 43,
+      "type": "apt",
+      "parentKey": 33,
+      "value": "6-р хотхон"
+    },
+    {
+      "id": 44,
+      "key": 44,
+      "type": "apt",
+      "parentKey": 33,
+      "value": "7-р хотхон"
+    },
+    {
+      "id": 45,
+      "key": 45,
+      "type": "apt",
+      "parentKey": 33,
+      "value": "8-р хотхон"
+    },
+    {
+      "id": 46,
+      "key": 46,
+      "type": "apt",
+      "parentKey": 33,
+      "value": "9-р хотхон"
+    },
+    {
+      "id": 47,
+      "key": 47,
+      "type": "apt",
+      "parentKey": 33,
+      "value": "10-р хотхон"
+    },
+    {
+      "id": 48,
+      "key": 48,
+      "type": "apt",
+      "parentKey": 33,
+      "value": "11-р хотхон"
+    }
+  ]
+  
